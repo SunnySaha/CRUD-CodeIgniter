@@ -4,7 +4,8 @@
 <head>
 <title>Created User</title>
 <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap.min.css'; ?>"></link>
-
+<link rel="stylesheet" type="text/css" href="main.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
 <!-- navbar start-->
 <div class="navbar navbar-dark bg-dark">
 <div class ="container">
-<a href="#" class="navbar-brand">CRUD APPLICATION</a>
+<a href="<?php echo base_url().'index.php/Users/index'; ?>" class="navbar-brand">CRUD APPLICATION</a>
 
 </div>
 
@@ -51,7 +52,7 @@
 <div class="form-group">
 <button class ="btn btn-success" >Submit Information</button>
 
-<a class ="btn btn-danger">Cancel</a>
+<a class ="btn btn-danger" href="<?php echo base_url().'index.php/Users/index';?>">Cancel</a>
 </div>
 
 </div>
@@ -63,6 +64,8 @@
 </div>
 
 <!-- form end-->
+
+
 
 </body>
 
